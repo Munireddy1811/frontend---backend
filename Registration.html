@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration.html</title>
+    
+</head>
+<body style="display: flex; justify-content: center; align-items: center; height: 200vh; margin: 10;">
+    <div style="display: flex; justify-content: center; align-items: center; border: 10px solid #b84040; padding: 200px; border-radius: 100px; box-shadow: 0 0 10px rgba(202, 150, 6, 0.1);">
+        <form style="display: flex; flex-direction: column;">
+            
+                <h1 style=" text-decoration: underline; color: rebeccapurple; font-size: 50px;">Registration Form</h1> <br><br>
+
+                <label for="FIRST NAME" class="form-label" style="margin-bottom: 10px;">FIRST NAME</label>
+                <input type="name" class="form-control" id="name" placeholder="first name" style="margin-bottom: 20px; padding: 10px; border: 5px solid hsla(69, 96%, 48%, 0.925); border-radius: 5px;">
+
+                <label for="MIDDLE NAME" class="form-label" style="margin-bottom: 10px;">MIDDLE NAME</label>
+                <input type="name" class="form-control" id="name" placeholder=" midle name" style="margin-bottom: 20px; padding: 10px; border: 5px solid #10dd44ec; border-radius: 5px;">
+
+                <label for="LAST NAME" class="form-label" style="margin-bottom: 10px;">LAST NAME</label>
+                <input type="name" class="form-control" id="name" placeholder=" last name" style="margin-bottom: 20px; padding: 10px; border: 5px solid #0b9cdff3; border-radius: 5px;">
+
+                <label for="GENDER" class="form-label" style="margin-bottom: 10px;">GENDER</label>
+                <select class="form-select form-select-lg mb-3" aria-label="Large select example" style="margin-bottom: 20px; padding: 10px; border: 5px solid #271d26d8; border-radius: 5px;">
+                    <option selected>Select</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                    <option value="3">Transgender</option>
+                </select>
+
+                <label for="exampleFormControlInput1" class="form-label" style="margin-bottom: 10px;">EMAIL ADDRESS</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" style="margin-bottom: 20px; padding: 10px; border: 5px solid #e70783f5; border-radius: 5px;">
+
+                <label for="exampleFormControlInput1" class="form-label" style="margin-bottom: 10px;">MOBILE NUMBER</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Please enter mobile number" style="margin-bottom: 20px; padding: 10px; border: 5px solid #f809ec59; border-radius: 5px;">
+            
+                <label for="address" class="form-label" style="margin-bottom: 10px;">ADDRESS</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="margin-bottom: 20px; padding: 10px; border: 5px solid #f0e008f1; border-radius: 5px;"></textarea>
+            
+                <label for="password" class="form-label" style="margin-bottom: 10px;">PASSWOED</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="words with special charters" style="margin-bottom: 20px; padding: 10px; border: 5px solid #83d1e9ef; border-radius: 5px;">
+
+                <label for="password" class="form-label" style="margin-bottom: 10px;">CONFIRM PASSWOED</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="words with special charters" style="margin-bottom: 20px; padding: 10px; border: 5px solid #0efd5675; border-radius: 5px;">
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required style="margin-bottom: 20px; padding: 10px; border: 1px solid #2f0eeefb; border-radius: 5px;">
+                <label class="form-check-label" for="invalidCheck" style="margin-bottom: 10px;">
+                    If your information is correct
+                </label>
+                <div class="invalid-feedback">
+                    You must agree before submitting.
+                </div> <br> <br>
+                <button type="button" class="btn btn-success" style="padding: 10px; border: none; border-radius: 5px; background-color: #e47f9df6; color: rgba(37, 31, 35, 0.966); cursor: pointer;">Sign up</button>
+            </div>
+
+        </form>
+    </div> 
+</body>
+</html>
